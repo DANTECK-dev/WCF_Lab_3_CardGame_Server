@@ -8,7 +8,7 @@ using System.Text;
 namespace WCF_Lab_3_CardGame
 {
     // ПРИМЕЧАНИЕ. Можно использовать команду "Переименовать" в меню "Рефакторинг", чтобы изменить имя интерфейса "IServiceGame" в коде и файле конфигурации.
-    [ServiceContract(CallbackContract =typeof(IServiceGameCallBack))]
+    [ServiceContract(CallbackContract = typeof(IServiceGameCallBack))]
     public interface IServiceGame
     {
 

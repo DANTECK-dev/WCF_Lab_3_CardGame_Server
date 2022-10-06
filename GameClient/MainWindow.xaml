@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GameClient"
         mc:Ignorable="d"
+        Closing="Window_Closing"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="TB_UserName" Margin="206,10,10,379" TextWrapping="Wrap" Text="UserName"/>
+        <Button x:Name="BT_Connect" Content="Connect" Margin="10,10,599,379" Click="BT_Connect_Click"/>
+        <ListBox x:Name="Chat" Margin="10,60,10,124"/>
+        <TextBox x:Name="Message" HorizontalAlignment="Center" Margin="0,0,0,10" TextWrapping="Wrap" Text="TextBox" Width="780" Height="109" VerticalAlignment="Bottom" KeyDown="Message_KeyDown"/>
+
     </Grid>
 </Window>

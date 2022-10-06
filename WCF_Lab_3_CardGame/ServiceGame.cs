@@ -17,10 +17,11 @@ namespace WCF_Lab_3_CardGame
         {
             ServerUser user = new ServerUser()
             {
-                ID = nextID++,
+                ID = nextID,
                 Name = name,
                 operationContext = OperationContext.Current
             };
+            nextID++;
             users.Add(user);
             SendMessage(user.Name + " connected", 0);
             return user.ID;
