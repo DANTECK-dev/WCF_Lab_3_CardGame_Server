@@ -47,6 +47,8 @@ namespace WCF_Lab_3_CardGame
                     answer += ": " + user.Name + " ";
                 }
                 answer += message;
+                item.operationContext.GetCallbackChannel<IServiceGameCallBack>().MessageCallBack(answer);  
+
             }
         }
 

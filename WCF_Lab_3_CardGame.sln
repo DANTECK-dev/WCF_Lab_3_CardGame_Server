@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Lab_3_CardGame", "WCF_Lab_3_CardGame\WCF_Lab_3_CardGame.csproj", "{609A17DB-681F-412C-9866-7D1CBC286E3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameHost", "GameHost\GameHost.csproj", "{A0596494-D7D6-4B12-B6D4-0ECEEC4ED044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameClient", "GameClient\GameClient.csproj", "{62DE073E-E96E-451E-9AC5-5CB2ECE71235}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{609A17DB-681F-412C-9866-7D1CBC286E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{609A17DB-681F-412C-9866-7D1CBC286E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{609A17DB-681F-412C-9866-7D1CBC286E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0596494-D7D6-4B12-B6D4-0ECEEC4ED044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0596494-D7D6-4B12-B6D4-0ECEEC4ED044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0596494-D7D6-4B12-B6D4-0ECEEC4ED044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0596494-D7D6-4B12-B6D4-0ECEEC4ED044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DE073E-E96E-451E-9AC5-5CB2ECE71235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DE073E-E96E-451E-9AC5-5CB2ECE71235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DE073E-E96E-451E-9AC5-5CB2ECE71235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DE073E-E96E-451E-9AC5-5CB2ECE71235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
